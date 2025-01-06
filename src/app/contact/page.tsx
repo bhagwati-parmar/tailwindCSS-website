@@ -9,7 +9,7 @@ const Contact = () => {
         <input type="text" placeholder=' Email Address' className='w-full mb-4 px-4 py-2 border border-blue-500 rounded-md' required/>
         <input type="text" placeholder=' Phone Number' className='w-full mb-4 px-4 py-2 border border-blue-500 rounded-md' />
         <textarea placeholder='Your Message' className='w-full mb-4 px-4 py-2 border border-blue-500 rounded-md' rows={5} required></textarea>
-        <button type='submit' className='w-full bg-blue-500 text-white py-2 rounded-md'>Send Message</button>
+        <button type='submit' className='w-full bg-blue-500  hover:bg-blue-700 text-white py-2 rounded-md'>Send Message</button>
     </form>
  </section>
 );

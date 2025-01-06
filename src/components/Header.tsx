@@ -1,6 +1,5 @@
 "use client";
 
-
 import React, { useState } from "react";
 import Link from "next/link";
 import { FaShoppingCart } from "react-icons/fa";
